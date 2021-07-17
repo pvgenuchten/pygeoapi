@@ -5,17 +5,149 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.11\n"
+"Project-Id-Version:  0.11\n"
 "Report-Msgid-Bugs-To: pygeoapi@lists.osgeo.org\n"
-"POT-Creation-Date: 2021-07-10 23:50+0200\n"
+"POT-Creation-Date: 2021-07-12 00:37+0200\n"
 "PO-Revision-Date: 2021-07-11 00:15+0200\n"
 "Last-Translator: Paul van Genuchten\n"
 "Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
+#: pygeoapi/api.py:558 pygeoapi/api.py:771 pygeoapi/api.py:982
+#: pygeoapi/api.py:1898
+msgid "This document as JSON"
+msgstr "Ce document au format JSON"
+
+#: pygeoapi/api.py:563 pygeoapi/api.py:778 pygeoapi/api.py:989
+#: pygeoapi/api.py:1340 pygeoapi/api.py:1545 pygeoapi/api.py:1905
+msgid "This document as RDF (JSON-LD)"
+msgstr "Ce document au format RDF (JSON-LD)"
+
+#: pygeoapi/api.py:568 pygeoapi/api.py:785 pygeoapi/api.py:996
+#: pygeoapi/api.py:1347 pygeoapi/api.py:1550 pygeoapi/api.py:1912
+msgid "This document as HTML"
+msgstr "Ce document au format HTML"
+
+#: pygeoapi/api.py:574
+msgid "The OpenAPI definition as JSON"
+msgstr ""
+
+#: pygeoapi/api.py:579
+msgid "The OpenAPI definition as HTML"
+msgstr ""
+
+#: pygeoapi/api.py:586 pygeoapi/templates/conformance.html:2
+#: pygeoapi/templates/conformance.html:4 pygeoapi/templates/conformance.html:8
+#: pygeoapi/templates/landing_page.html:78
+msgid "Conformance"
+msgstr "Conformité"
+
+#: pygeoapi/api.py:591 pygeoapi/templates/collections/coverage/rangetype.html:4
+#: pygeoapi/templates/collections/edr/query.html:4
+#: pygeoapi/templates/collections/items/index.html:4
+#: pygeoapi/templates/collections/items/item.html:25
+#: pygeoapi/templates/collections/tiles/index.html:4
+#: pygeoapi/templates/collections/tiles/metadata.html:4
+#: pygeoapi/templates/landing_page.html:47
+msgid "Collections"
+msgstr "Collections"
+
+#: pygeoapi/api.py:797
+#, fuzzy
+msgid "Queryables for this collection as JSON"
+msgstr "Articles de cette collection"
+
+#: pygeoapi/api.py:804
+#, fuzzy
+msgid "Queryables for this collection as HTML"
+msgstr "Articles de cette collection"
+
+#: pygeoapi/api.py:811
+msgid "items as GeoJSON"
+msgstr "Articles au format GeoJSON"
+
+#: pygeoapi/api.py:818
+msgid "items as RDF (GeoJSON-LD)"
+msgstr "Articles au format RDF (GeoJSON-LD)"
+
+#: pygeoapi/api.py:825
+msgid "Items as HTML"
+msgstr "Articles au format HTML"
+
+#: pygeoapi/api.py:836
+msgid "Detailed Coverage metadata in JSON"
+msgstr "Métadonnées de couverture détaillées au format JSON"
+
+#: pygeoapi/api.py:843
+msgid "Detailed Coverage metadata in HTML"
+msgstr "Métadonnées de couverture détaillées au format HTML"
+
+#: pygeoapi/api.py:853
+msgid "Coverage domain set of collection in JSON"
+msgstr "Domaine de couverture ensemble de collection au format JSON"
+
+#: pygeoapi/api.py:859
+msgid "Coverage domain set of collection in HTML"
+msgstr "Domaine de couverture ensemble de collection au format HTML"
+
+#: pygeoapi/api.py:865
+msgid "Coverage range type of collection in JSON"
+msgstr "Gamme de couverture type de collection au format JSON"
+
+#: pygeoapi/api.py:871
+msgid "Coverage range type of collection in HTML"
+msgstr "Gamme de couverture type de collection au format HTML"
+
+#: pygeoapi/api.py:877
+msgid "Coverage data"
+msgstr "Données de couverture"
+
+#: pygeoapi/api.py:920
+msgid "Tiles as JSON"
+msgstr "Tuiles au format JSON"
+
+#: pygeoapi/api.py:927
+msgid "Tiles as HTML"
+msgstr "Tuiles au format HTML"
+
+#: pygeoapi/api.py:1333 pygeoapi/api.py:1540
+msgid "This document as GeoJSON"
+msgstr "Ce document au format GeoJSON"
+
+#: pygeoapi/api.py:1359
+msgid "items (prev)"
+msgstr "Articles précédents"
+
+#: pygeoapi/api.py:1371
+msgid "items (next)"
+msgstr "Articles suivants"
+
+#: pygeoapi/api.py:1561 pygeoapi/templates/collections/items/index.html:62
+#: pygeoapi/templates/collections/items/item.html:60
+msgid "Prev"
+msgstr "Précédent"
+
+#: pygeoapi/api.py:1566 pygeoapi/templates/collections/items/index.html:64
+#: pygeoapi/templates/collections/items/item.html:62
+msgid "Next"
+msgstr "Suivant"
+
+#: pygeoapi/api.py:2170
+msgid "jobs for this process as HTML"
+msgstr ""
+
+#: pygeoapi/api.py:2179
+msgid "jobs for this process as JSON"
+msgstr "tâches pour ce processus au format JSON"
+
+#: pygeoapi/api.py:2545
+msgid "The job list for the current process"
+msgstr "La liste des tâches pour le processus en cours"
 
 #: pygeoapi/templates/_base.html:40 pygeoapi/templates/landing_page.html:2
 msgid "Home"
@@ -35,13 +167,7 @@ msgstr "propulsé par"
 
 #: pygeoapi/templates/_base.html:76
 msgid "postPoweredBy"
-msgstr ""
-
-#: pygeoapi/templates/conformance.html:2 pygeoapi/templates/conformance.html:4
-#: pygeoapi/templates/conformance.html:8
-#: pygeoapi/templates/landing_page.html:78
-msgid "Conformance"
-msgstr "Conformité"
+msgstr " "
 
 #: pygeoapi/templates/exception.html:2 pygeoapi/templates/exception.html:5
 msgid "Exception"
@@ -54,16 +180,6 @@ msgstr "Conditions d'utilisation"
 #: pygeoapi/templates/landing_page.html:35
 msgid "License"
 msgstr "License"
-
-#: pygeoapi/templates/collections/coverage/rangetype.html:4
-#: pygeoapi/templates/collections/edr/query.html:4
-#: pygeoapi/templates/collections/items/index.html:4
-#: pygeoapi/templates/collections/items/item.html:25
-#: pygeoapi/templates/collections/tiles/index.html:4
-#: pygeoapi/templates/collections/tiles/metadata.html:4
-#: pygeoapi/templates/landing_page.html:47
-msgid "Collections"
-msgstr "Collections"
 
 #: pygeoapi/templates/landing_page.html:49
 msgid "View the collections in this service"
@@ -175,16 +291,6 @@ msgstr "Limite"
 #: pygeoapi/templates/collections/items/index.html:42
 msgid "default"
 msgstr "Defaut"
-
-#: pygeoapi/templates/collections/items/index.html:62
-#: pygeoapi/templates/collections/items/item.html:60
-msgid "Prev"
-msgstr "Précédent"
-
-#: pygeoapi/templates/collections/items/index.html:64
-#: pygeoapi/templates/collections/items/item.html:62
-msgid "Next"
-msgstr "Suivant"
 
 #: pygeoapi/templates/collections/items/index.html:114
 msgid "No items"
